@@ -128,7 +128,7 @@ function generateListHTML({ name, price }, id) {
     <li class="item shopping-item">
         <span data-delete="${id}" data-value=${price} class='delete'>x</span>
         <span>${name}</span>
-        <span>${price} pln</span>
+        <span>${price} Rs</span>
     </li>  
     `
 }
