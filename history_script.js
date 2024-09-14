@@ -186,18 +186,18 @@ function showMonthAnalysis(item) {
     <span class='close-button'>x</span>
     <div>
         <h3>${item['month']} ${item['year']}</h3>
-        <p>Income for ${item['month']} ${item['year']}: ${item.income} pln</p>
-        <p>Spent Total: ${item.total} pln</p>
+        <p>Income for ${item['month']} ${item['year']}: ${item.income} Rs</p>
+        <p>Spent Total: ${item.total} Rs</p>
     </div>
     <div>
-    <p>Food: ${item.food} pln</p>
-    <p>Coffe and Out: ${item.coffeeAndOut} pln</p>
-    <p>Other: ${item.other} pln</p>
-    <p>Shopping: ${item.shopping} pln</p>
-    <p>Travel: ${item.travel} pln</p>
+    <p>Food: ${item.food} Rs</p>
+    <p>Coffe and Out: ${item.coffeeAndOut} Rs</p>
+    <p>Other: ${item.other} Rs</p>
+    <p>Shopping: ${item.shopping} Rs</p>
+    <p>Travel: ${item.travel} Rs</p>
     </div>
     ${notes}
-    <p>Balance: ${item.balance} pln</p>
+    <p>Balance: ${item.balance} Rs</p>
     `
   chart(item)
 
